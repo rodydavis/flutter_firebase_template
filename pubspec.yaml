@@ -1,0 +1,37 @@
+name: flutter_firebase_template
+description: A Flutter Application showing how to use Auth and Firestore on the web and mobile.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter_web: any
+  flutter_web_ui: any
+  flutter_web_test: any
+  provider: any
+  firebase: ^5.0.3
+
+dev_dependencies:
+  build_runner: ^1.4.0
+  build_web_compilers: '>=1.0.0 <2.0.0'
+  pedantic: ^1.0.0
+
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_test:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_test
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+  provider:
+    git:
+      url: https://github.com/AppleEducate/provider
+      path: packages/provider
+      ref: web
+      
