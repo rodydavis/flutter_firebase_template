@@ -4,13 +4,13 @@ final auth = fb.auth();
 
 void _init() {
   fb.initializeApp(
-    apiKey: "AIzaSyDvczSfQ19pv5RaQicYn1hC-9JRFbkztkI",
-    authDomain: "unify-connect-323c5.firebaseapp.com",
-    databaseURL: "https://unify-connect-323c5.firebaseio.com",
-    projectId: "unify-connect-323c5",
-    storageBucket: "unify-connect-323c5.appspot.com",
-    messagingSenderId: "424548644874",
-    // appId: "1:424548644874:web:cff5286295ba81ca",
+    apiKey: "API_KEY",
+    authDomain: "AUTH_DOMAIN",
+    databaseURL: "DATABASE_URL",
+    projectId: "PROJECT_ID",
+    storageBucket: "STORAGE_BUCKET",
+    messagingSenderId: "MESSAGE_SENDER_ID",
+    // appId: "APP_ID",
   );
 }
 
