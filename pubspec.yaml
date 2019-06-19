@@ -2,13 +2,13 @@ name: flutter_firebase_template
 description: A Flutter Application showing how to use Auth and Firestore on the web and mobile.
 version: 1.0.0+1
 environment:
-  sdk: ">=2.1.0 <3.0.0"
+  sdk: ">=2.2.2 <3.0.0"
 
 dependencies:
   flutter_web: any
   flutter_web_ui: any
   flutter_web_test: any
-  provider: any
+  provider: ^3.0.0+1
   firebase: ^5.0.3
 
 dev_dependencies:
@@ -34,4 +34,3 @@ dependency_overrides:
       url: https://github.com/AppleEducate/provider
       path: packages/provider
       ref: web
-      
